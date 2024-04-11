@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bdd9c7;
+    font-size: 16px;
+    font-weight: 400;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.box {
+    background-color: #d7ffe4;
+    width: 35rem;
+    height: 90vh;
+    border: 2px solid #3e7c3d;
+    padding: 2vw 2vw 2vw 5vw;
+    position: relative;
+
+    box-shadow: 0 0 5px #307f37;
+}
+
+.box_titulo {
+    color: #307f37;
+    font-size: 12px;
+    font-weight: bolder;
+    background-color: #d7ffe4;
+    border: 1px solid #3e7c3d;
+    width:fit-content;
+    padding: 0.1vw 0.5vw;
+    position: relative;
+    margin-top: -1.1em;
+}
+
+.cadastro_titulo {
+    margin-top: -3vw;
+    position: absolute;
+}
+
+.cadastro_geral {
+    background-color: transparent;
+    width: auto;
+    height: 55vh;
+    border: 1px solid #3e7c3d;
+    padding: 2vw 1vw 1vw 1vw;
+    margin-bottom: 1em;
+}
+
+.label {
+    color: #3e7c3d;
+    font-size: 12px;
+    font-weight: bolder;
+    position: relative;
+}
+.input {
+    outline: #3e7c3d;
+    border: 1.5px solid #3e7c3d;
+    width: 85%;
+}
+.box_box {
+    border: 1px solid #3e7c3d;
+    padding: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vw;
+    margin-top: 0.5vw;
+}
+
+.dados {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faixa_box {
+    height: 11vh;
+}
+.faixa_etaria {
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    height: 8vh;
+    margin-top: 1vw;
+}
+
+.faixa_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.faixa_opcao {
+    scale: 0.9;
+    align-items: center;
+    margin: -1vh 0 0 0;
+}
+
+.esporte_opcao {
+    margin-left: -1em;
+}
+
+.esportes_box {
+    margin-top: 1.5vw;
+    margin-bottom: -0.5vw;
+}
+
+textarea {
+    outline: #3e7c3d;
+    border: 1.5px solid #3e7c3d;
+    width: 60%;
+}
+
+.button {
+    outline: #78ba77;
+    border: 1.5px solid #78ba77;
+    width: fit-content;
+    padding: 0.1em 0.5em;
+    width: 6em;
+}
+
+.msg {
+    margin-top: 0.5vw;
+}
